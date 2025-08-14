@@ -1,0 +1,35 @@
+body {
+    margin: 0; /*Supprimer la marge par défaut*/
+    font-family: Arial, sans-serif; 
+}
+
+header {
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0; /*Enlever le décalage par défaut*/
+    margin: 0; /*Pareil*/
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
