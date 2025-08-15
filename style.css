@@ -81,7 +81,6 @@ main h2 {
 .container{
     display: flex; /*pour que les blocs soient côte à côte*/
     gap: 20px; /*pour gérer l'espacement entre les blocs*/
-    align-items: stretch;
 }
 
 .bloc {
@@ -106,6 +105,50 @@ bloc h3 {
 
 .bloc ul li {
     margin-bottom: 5px; /*espacement entre les items*/
+}
+
+.container-projets {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /*retour à la ligne*/
+        
+}
+
+.bloc-projets {
+    width: calc((100% - 40px) / 2);
+    padding: 20px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    text-align: center;   
+}
+
+.bloc-projets h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.bloc-projets p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;    
+}
+
+.bloc-projets a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+     background-color: #007bff;   
+    color: white;                
+    border-radius: 8px;          
+    font-weight: bold;           
+    text-align: center;         
+    transition: background-color 0.3s; 
+}
+
+.bloc-projets a:hover {
+    background-color: #0056b3;  
 }
 
 footer {
